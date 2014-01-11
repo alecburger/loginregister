@@ -21,7 +21,7 @@
 				$_SESSION['username'] = $username;
 				header('Location: member.php');
  			}else {
-				echo'This user doesn't exist!';
+				echo'This user does not exist!';
 			}
 		}else {
 		
